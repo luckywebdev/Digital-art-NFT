@@ -1,0 +1,39 @@
+{
+  "name": "digital-art",
+  "version": "1.0.0",
+  "description": "digital-art",
+  "main": "hardhat.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luckywebdev/digital-art.git"
+  },
+  "keywords": [
+    "nft",
+    "solidity",
+    "digital",
+    "art"
+  ],
+  "author": "lucky dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luckywebdev/digital-art/issues"
+  },
+  "homepage": "https://github.com/luckywebdev/digital-art#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.4",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.2.0",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.1",
+    "hardhat": "^2.4.3"
+  }
+}
